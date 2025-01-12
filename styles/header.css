@@ -1,0 +1,163 @@
+
+.header-container {
+    background-color: black;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 6% 1.5% 6%;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-logo-image {
+    width: 10vw;
+    transition: .4s;
+}
+
+.header-logo-image:hover {
+    transform: scale(1.05);
+    transform: rotate(90deg);
+}
+
+.header-logo-text {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.content-text {
+    transition: .4s;
+}
+
+.content-text:hover {
+    transform: scale(1.05);
+    transform: rotate(1deg);
+}
+
+.header-menu > button {
+    background-color: transparent;
+    border: none;
+}
+
+.menu-icon {
+    width: 9vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-order-1 {
+    margin: 4% 0% 0% 0%;
+}
+
+.list-order-2 {
+    margin: 0% 0% 5% 0%;
+}
+
+.list-item {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 3% 0% 3% 0%;
+
+    gap: 5px;
+}
+
+.list-image {
+    width: 5vw;
+}
+
+.list-text {
+    font-family: var(--second-font);
+}
+
+.open {
+    display: block;
+}
+
+/* MEDIA */
+
+@media (min-width: 850px) {
+
+    .header-container {
+        background-color: rgba(0, 0, 0, 0);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .hidden {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 1% 5% 1% 5%;
+    }
+
+    .header-logo {
+        gap: 1.5rem;
+    }
+
+    .header-logo-image {
+        width: 3.6vw;
+    }
+
+    .header-logo-text {
+        font-size: 2rem;
+    }
+
+    .header-icons-container {
+        display: block;
+    }
+
+    .header-icons-content {
+        display: flex;
+        flex-direction: row;
+        gap: 1.3rem;
+    }
+
+    .icons-list {
+        transition: .4s;
+    }
+    
+    .icons-list:hover {
+        transform: scale(1.2);
+    }    
+
+    .icons-image {
+        width: 1.7vw;
+    }
+
+    .header-menu {
+        display: none;
+    }
+}

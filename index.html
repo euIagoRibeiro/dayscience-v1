@@ -4,120 +4,207 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
-    <title>DayScience</title>
     <link rel="stylesheet" href="style.css">
+    <title>DayScience</title>
 </head>
 <body>
 
     <header class="header-container">
         <nav class="header-content">
             <div class="header-logo">
+
                 <a class="header-logo-content" href="index.html">
-                    <img class="header-logo-img" src="images/logo-ciencia.png" alt="Logo do site">
+                    <img class="header-logo-image" src="images/logo-ciencia.png" alt="logo do site">
                 </a>
-                <a class="header-logo-contnet" href="index.html">
+
+                <a class="header-logo-content content-text" href="index.html">
                     <span class="header-logo-text">DayScience</span>
                 </a>
+
             </div>
 
-            <div class="header-menu">
-                <img class="menu" src="assets/menu.svg" hidden alt="Logo da Navbar">
-            </div>
-            
-<!-- DESKTOP -->
+            <div class="header-icons-container" hidden>
+                <ul class="header-icons-content">
 
-            <div class="header-info">
-                <a class="header-info-text" href="index.html" hidden>Página Inicial</a>
+                    <li class="icons-list">
+                        <a href="">
+                            <img class="icons-image" src="assets/instagram.svg" alt="">
+                        </a>
+                    </li>
 
-                <ul class="header-info-list">
-                    <li class="header-list" hidden>
-                        <a href="https://www.facebook.com/" target="_blank">
-                            <img class="list-image" src="assets/facebook.svg" alt="Ícone do Facebook">
+                    <li class="icons-list">
+                        <a href="">
+                            <img class="icons-image" src="assets/youtube.svg" alt="">
                         </a>
                     </li>
-                    <li class="header-list" hidden>
-                        <a href="https://www.instagram.com/" target="_blank">
-                            <img class="list-image" src="assets/instagram.svg" alt="Ícone do Instagram">
+
+                    <li class="icons-list">
+                        <a href="">
+                            <img class="icons-image" src="assets/facebook.svg" alt="">
                         </a>
                     </li>
-                    <li class="header-list" hidden>
-                        <a href="https://www.youtube.com/" target="_blank">
-                            <img class="list-image" src="assets/youtube.svg" alt="Ícone do Youtube">
-                        </a>
-                    </li>
+
                 </ul>
             </div>
 
+            <div class="header-menu">
+                <button onclick="menuShow()"><img class="menu-icon" src="assets/menu.svg" alt="barra de navegação do site  "></button>    
+            </div>
+
         </nav>
+
+        <div class="mobile-menu">
+            <ul class="mobile-menu-list">
+                <li class="list-content list-order-1">
+                    <a class="list-item" href="">
+                        <img class="list-image" src="assets/instagram.svg" alt="">
+                        <p class="list-text">Instagram</p>
+                    </a>
+                </li>
+                <li class="list-content">
+                    <a class="list-item" href="">
+                        <img class="list-image" src="assets/youtube.svg" alt="">
+                        <p class="list-text">Youtube</p>
+                    </a>
+                </li>
+                <li class="list-content list-order-2">
+                    <a class="list-item" href="">
+                        <img class="list-image" src="assets/facebook.svg" alt="">
+                        <p class="list-text">facebook</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </header>
 
     <main>
 
+        <!-- SECTION 1 -->
         <section class="section1-container">
+
             <div class="section1-content">
-                <div class="section1-text">
-                    <h1 class="section1-text-title">Principais notícias de ciências aqui</h1>
-                    <hr class="section1-text-line">
-                    <h2 class="section1-text-desc">Descubra várias notícias recentes do mundo da ciências, desde de artigos até inovações tecnológicas.</h2>
-                </div>
-                <div class="section1-images">
-                    <img class="section1-images-image" src="images/science1.png" alt="Cientistas">
+                <div class="section1-main">
+                    <img class="section1-main-image" src="images/logo-ciencia.png" alt="logo do site">
+                    <h1 class="section1-main-title text-hover">Explorando o Futuro</h1>
+                    <p class="section1-main-desc">Onde ciência, inovação e conhecimento se encontram para transformar o mundo.</p>
                 </div>
             </div>
+
         </section>
 
-        <hr class="line">
-
+        <!-- SECTION 2 -->
         <section class="section2-container">
+
             <div class="section2-content">
+                <div class="section2-visual">
+                    <img class="section2-image" src="images/science-images.svg" alt="">
+                </div>
                 <div class="section2-text">
-                    <h2 class="section2-text-title">O que é o DayScience?</h2>
-                    <hr class="section2-text-line">
-                    <h2 class="section2-text-desc">O DayScience foi criado com a proposta de informar descobertas, arquivar artigos e entregar as notícias mais recentes, interessantes e relevantes sobre ciências, para seus amantes, tudo em um só lugar pensado, organizado e dinâmico.</h2>
-                </div>
-                <div class="section2-images">
-                    <img class="section2-images-image" src="images/science2.png" alt="Ciência">
+                    <h2 class="section2-text-title text-hover">Sobre o DayScience</h2>
+                    <p class="section2-text-desc">O DayScience foi criado para ser um espaço dinâmico e organizado, reunindo descobertas, artigos e as notícias mais relevantes sobre ciência para os apaixonados pelo tema.</p>
                 </div>
             </div>
+
         </section>
 
-        <hr class="line">
-
-        <section class="section3-container">
+        <!-- SECTION 3 -->
+         <section class="section3-container">
             <div class="section3-content">
-                <div class="section3-main-info">
-                    <h2 class="section3-title">Funcionará da seguinte maneira:</h2>
-                    <hr class="section3-line">
+                <div class="section3-content-text">
+                    <h2 class="section3-text-title text-hover">Funcionará da Seguinte Maneira</h2>
                 </div>
-                <div class="section3-main">
-                    <div class="section3-info">
-                        <img class="info-images" src="images/noticias.png" alt="Ícone de Notícias">
-                        <hr class="info-line">
-                        <p class="info-desc">Disponibilizaremos uma seção onde serão publicadas todas as notícias relacionadas ao mundo da ciência, organizadas de acordo com sua relevância, interesse e atualidade. Além disso, essa seção incluirá diversas descobertas no campo científico.</p>
+                <div class="section3-content-list">
+                    <div class="list-content">
+                        <h2 class="section3-list-number">01</h2>
+                        <p class="section3-list-desc">Notícias de Ciência: Seção com notícias relevantes e descobertas recentes.</p>
                     </div>
-                    <div class="section3-info">
-                        <img class="info-images" src="images/artigos.png" alt="Ícone de Artigos">
-                        <hr class="info-line">
-                        <p class="info-desc">Além das notícias, disponibilizaremos uma seção dedicada à arquivação de diversos artigos científicos, organizada de forma a facilitar uma busca dinâmica entre eles, classificando-os por relevância, atualidade e interesse</p>
+                    <div class="list-content">
+                        <h2 class="section3-list-number">02</h2>
+                        <p class="section3-list-desc">Arquivamento de Artigos Científicos: Artigos organizados para buscas dinâmicas por relevância e interesse.</p>
                     </div>
-                    <div class="section3-info">
-                        <img class="info-images" src="images/inovacoes.png" alt="Ícone de Inovações">
-                        <hr class="info-line">
-                        <p class="info-desc">Por fim, disponibilizaremos uma seção dedicada às inovações no mundo da ciência, abordando desde curiosidades até conteúdos mais informativos. Assim como as demais seções, esta também contará com uma organização dinâmica para facilitar a busca.</p>
+                    <div class="list-content">
+                        <h2 class="section3-list-number">03</h2>
+                        <p class="section3-list-desc list-space">Inovações Científicas: Conteúdo sobre inovações e curiosidades, com busca facilitada.</p>
                     </div>
                 </div>
             </div>
-        </section>
+         </section>
 
-        <hr class="line">
+         <!-- SECTION 4 -->
+          <section class="section4-container">
+            <div class="section4-content">
+                <div class="section4-content-text">
+                    <h2 class="section4-text-title text-hover">Mantenha-se Atualizado!</h2>
+                    <p class="section4-text-desc">Receba as novidades da ciência diretamente na sua caixa de entrada.</p>
+                </div>
+                <div class="section4-content-form">
+
+                    <form class="section4-form" id="formulario">
+
+                        <h2 class="form-title text-hover">Contato</h2>
+
+                        <fieldset class="formulario-campo">
+                            <label for="nome" class="campo-etiquieta" for="">Nome</label>
+                            <input class="campo-escrita" type="text" id="nome" minlength="3" required>
+                        </fieldset>
+
+                        <fieldset class="formulario-campo">
+                            <label for="sobrenome" class="campo-etiquieta" for="">Sobrenome</label>
+                            <input class="campo-escrita" type="text" id="sobrenome" minlength="3" required>
+                        </fieldset>
+
+                        <fieldset class="formulario-campo">
+                            <label for="email" class="campo-etiquieta" for="">E-mail</label>
+                            <input class="campo-escrita" type="text" id="email" minlength="4" required>
+                        </fieldset>
+
+                        <div class="form-button-content">
+                            <input class="form-button" value="Confirmar" type="submit">
+                        </div>
+
+                        <div class="form-desc">
+                            <div class="form-desc-info">
+                                <!-- <p class="info-number">(11) 3456-7890</p> -->
+                                <P class="info-email">dayscience@contato.com</P>
+                            </div>
+                            <div class="form-desc-contact">
+                                    <ul class="contact-list-info">
+
+                                        <li class="contact-list-link">
+                                            <a href="">
+                                                <img class="link-image" src="assets/instagram.svg" alt="">
+                                            </a>
+                                        </li>
+
+                                        <li class="contact-list-link">
+                                            <a href="">
+                                                <img class="link-image" src="assets/youtube.svg" alt="">
+                                            </a>
+                                        </li>
+
+                                        <li class="contact-list-link">
+                                            <a href="">
+                                                <img class="link-image" src="assets/facebook.svg" alt="">
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+          </section>
 
     </main>
 
     <footer class="footer-container">
         <div class="footer-content">
-            <p class="footer-text">Copyright &copy; 2024 | Iago Ribeiro - Todos os direitos reservados </p>
+            <p class="footer-text">Copyright &copy; 2024 | Iago Ribeiro - Todos os direitos reservados</p>
         </div>
     </footer>
-    
+
+    <script src="script.js" defer></script>
 </body>
 </html>

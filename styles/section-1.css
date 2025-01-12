@@ -1,0 +1,98 @@
+
+.section1-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.900)), url(../images/science1.png);
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: center;
+    mask-image: linear-gradient(to bottom, #000 60%, rgba(0,0,0, 0.01) 90%);
+}
+
+.section1-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0% 5% 0% 5%;
+}
+
+.section1-main-image {
+    width: 22vw;
+    margin: 15% 0% 15% 0%;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.section1-main-image:hover {
+    transform: scale(1.05);
+    transform: rotate(90deg);
+}
+
+.section1-main-title {
+    font-weight: normal;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    text-transform: uppercase;
+    margin: 0% 0% 8% 0%;
+    text-align: center;
+}
+
+.section1-main-desc {
+    font-family: var(--second-font);
+    font-weight: 200;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    margin: 0% 0% 60% 0%;
+    text-align: center;
+
+}
+
+/* MEDIA */
+
+@media (min-width: 850px) {
+
+     .section1-container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.900)), url(../images/science1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        mask-image: linear-gradient(to bottom, #000 60%, rgba(0,0,0, 0.01) 90%);
+    }
+    
+    .section1-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0% 5% 0% 5%;
+    }
+    
+    .section1-main-image {
+        width: 8vw;
+        margin: 8% 0% 5% 0%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .section1-main-title {
+        font-weight: normal;
+        font-size: 3.5rem;
+        color: var(--text-color);
+        text-transform: uppercase;
+        margin: 0% 0% 5% 0%;
+        text-align: center;
+    }
+    
+    .section1-main-desc {
+        font-family: var(--second-font);
+        font-weight: 200;
+        font-size: 2.5rem;
+        color: var(--text-color);
+        padding: 0% 10% 0% 10%;
+        margin: 0% 0% 18% 0%;
+        text-align: center;
+    
+    }
+}

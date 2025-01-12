@@ -1,0 +1,236 @@
+
+.section4-container {
+    color: white;
+}
+
+.section4-content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.900)), url(../images/science3.png);
+    background-repeat: no-repeat;
+    background-size: 500%;
+    background-position: center;
+    padding: 0% 5% 35% 5%;
+}
+
+.section4-content-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section4-text-title {
+    font-size: 1.8rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 20% 0% 10% 0%;
+}
+
+.section4-text-desc {
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-family: var(--second-font);
+    margin: 0% 0% 15% 0%;
+}
+
+.section4-form {
+    border: 1.5px solid white;
+    border-radius: 30px;
+    background-color: rgb(15, 15, 15);
+    padding: 10% 0% 20% 0%;
+}
+
+.form-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 0% 0% 10% 0%;
+    text-align: center;
+}
+
+.formulario-campo {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    font-family: var(--second-font);
+    padding: 0% 7% 0% 7%;
+    margin: 0% 0% 6% 0%;
+}
+
+.campo-etiquieta {
+    margin: 0% 0% 3% 0%;
+}
+
+.campo-escrita {
+    border: transparent;
+    border-radius: 0.8rem;
+    padding: 0% 0% 0% 2%;
+    height: 40px;
+}
+
+.campo-escrita:hover {
+    outline: none;
+}
+
+.form-button-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-button {
+    font-size: 1.3rem;
+    font-family: var(--second-font);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2.5% 8% 2.5% 8%;
+    margin: 3% 0% 0% 0%;
+}
+
+.form-button:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+.form-desc-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    font-size: 0.9rem;
+    font-family: var(--second-font);
+    margin: 15% 0% 0% 0%;
+}
+
+.contact-list-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin: 5% 0% 0% 0%;
+}
+
+.link-image {
+    width: 6.6vw;
+}
+
+@media (min-width: 850px) {
+
+    .section4-container {
+        color: white;
+    }
+    
+    .section4-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6rem;
+        background-repeat: no-repeat;
+        background-size: 180%;
+        background-position: center;
+        padding: 10% 15% 10% 15%;
+    }
+    
+    .section4-content-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .section4-text-title {
+        font-size: 2.5rem;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin: 20% 0% 5% 0%;
+    }
+    
+    .section4-text-desc {
+        font-size: 1.5rem;
+        font-weight: 200;
+        font-family: var(--second-font);
+        margin: 0% 0% 20% 0%;
+    }
+    
+    .section4-form {
+        border-radius: 2rem;
+        padding: 10% 0% 10% 0%;
+        width: 30vw;
+    }
+
+    .form-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: lighter;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin: 0% 0% 8% 0%;
+        text-align: center;
+    }
+    
+    .formulario-campo {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        font-family: var(--second-font);
+        padding: 0% 7% 0% 7%;
+        margin: 0% 0% 6% 0%;
+    }
+    
+    .campo-etiquieta {
+        font-size: 1.2rem;
+        margin: 0% 0% 3% 0%;
+    }
+
+    
+    .campo-escrita {
+        padding: 0% 0% 0% 1.5%;
+        height: 35px;
+        outline: none;
+    }
+    
+    .form-button-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .form-button {
+        font-size: 1.3rem;
+        font-family: var(--second-font);
+        border: 2px solid transparent;
+        border-radius: 10px;
+        padding: 2.5% 8% 2.5% 8%;
+        margin: 2% 0% 0% 0%;
+    }
+    
+    .form-button:hover {
+        background-color: rgb(199, 199, 199);
+    }
+    
+    .form-desc-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-weight: 200;
+        gap: 1rem;
+        font-size: 1.2rem;
+        font-family: var(--second-font);
+        margin: 8% 0% 0% 0%;
+    }
+    
+    .contact-list-info {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8rem;
+        justify-content: center;
+        margin: 5% 0% 0% 0%;
+    }
+    
+    .link-image {
+        width: 8vw;
+    }
+}
