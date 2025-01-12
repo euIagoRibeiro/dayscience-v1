@@ -3,36 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
     <title>DayScience</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header>
-        <nav class="header-container">
-            <a class="header-content-1" href="index.html">
-                <img class="header-logo" src="images/logo-ciencia.png" alt="logo do site">
-                <span class="header-text">DayScience</span>
-            </a>
+    <header class="header-container">
+        <nav class="header-content">
+            <div class="header-logo">
+                <a class="header-logo-content" href="index.html">
+                    <img class="header-logo-img" src="images/logo-ciencia.png" alt="Logo do site">
+                </a>
+                <a class="header-logo-contnet" href="index.html">
+                    <span class="header-logo-text">DayScience</span>
+                </a>
+            </div>
 
-            <div class="header-content-2">
+            <div class="header-menu">
+                <img class="menu" src="assets/menu.svg" hidden alt="Logo da Navbar">
+            </div>
+            
+<!-- DESKTOP -->
 
-                <a class="header-menu" href="index.html">Página Inicial</a>
+            <div class="header-info">
+                <a class="header-info-text" href="index.html" hidden>Página Inicial</a>
 
-                <ul class="header-lista">
-                    <li>
-                        <a href="https://www.facebook.com/" target="_blank"><img class="header-icons" src="assets/facebook.svg" alt="Ícone do Facebook"></a>
+                <ul class="header-info-list">
+                    <li class="header-list" hidden>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img class="list-image" src="assets/facebook.svg" alt="Ícone do Facebook">
+                        </a>
                     </li>
-                    <li>
-                        <a href="https://www.instagram.com/" target="_blank"><img class="header-icons" src="assets/instagram.svg" alt="Ícone do Instagram"></a>
+                    <li class="header-list" hidden>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img class="list-image" src="assets/instagram.svg" alt="Ícone do Instagram">
+                        </a>
                     </li>
-                    <li>
-                        <a href="https://www.youtube.com/" target="_blank"><img class="header-icons" src="assets/youtube.svg" alt="Ícone do Youtube"></a>
+                    <li class="header-list" hidden>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img class="list-image" src="assets/youtube.svg" alt="Ícone do Youtube">
+                        </a>
                     </li>
                 </ul>
-
             </div>
 
         </nav>
@@ -40,48 +53,71 @@
 
     <main>
 
-        <section class="main1-container">
-
-            <div class="main1-content">
-                <div class="main1-text">
-                    <h1 class="main1-text-title">Encontre as principais notícias sobre ciências aqui!</h1>
-                    <hr class="main1-text-line">
-                    <h2 class="main1-text-desc">Descubra várias notícias recentes do mundo da ciências, desde de artigos até inovações tecnológicas.</h2>
+        <section class="section1-container">
+            <div class="section1-content">
+                <div class="section1-text">
+                    <h1 class="section1-text-title">Principais notícias de ciências aqui</h1>
+                    <hr class="section1-text-line">
+                    <h2 class="section1-text-desc">Descubra várias notícias recentes do mundo da ciências, desde de artigos até inovações tecnológicas.</h2>
                 </div>
-                <div class="main1-images">
-                    <img class="main1-images-image" src="images/Science.png" alt="Cientistas">
+                <div class="section1-images">
+                    <img class="section1-images-image" src="images/science1.png" alt="Cientistas">
                 </div>
             </div>
-
         </section>
 
         <hr class="line">
 
-        <section class="main2-container">
-
-            <div class="main2-content">
-                <div class="main2-text">
-                    <h2 class="main2-text-title">O que é o DayScience?</h2>
-                    <hr class="main2-text-line">
-                    <h2 class="main2-text-desc">O DayScience foi criado com a proposta de informar descobertas, arquivar artigos e entregar as notícias mais recentes, interessantes e relevantes sobre ciências, para seus amantes, tudo em um só lugar pensado, organizado e dinâmico.</h2>
+        <section class="section2-container">
+            <div class="section2-content">
+                <div class="section2-text">
+                    <h2 class="section2-text-title">O que é o DayScience?</h2>
+                    <hr class="section2-text-line">
+                    <h2 class="section2-text-desc">O DayScience foi criado com a proposta de informar descobertas, arquivar artigos e entregar as notícias mais recentes, interessantes e relevantes sobre ciências, para seus amantes, tudo em um só lugar pensado, organizado e dinâmico.</h2>
                 </div>
-                <div class="main2-images">
-                    <img class="main2-images-image" src="images/sci.png" alt="ciência">
+                <div class="section2-images">
+                    <img class="section2-images-image" src="images/science2.png" alt="Ciência">
                 </div>
-
             </div>
-
         </section>
+
+        <hr class="line">
+
+        <section class="section3-container">
+            <div class="section3-content">
+                <div class="section3-main-info">
+                    <h2 class="section3-title">Funcionará da seguinte maneira:</h2>
+                    <hr class="section3-line">
+                </div>
+                <div class="section3-main">
+                    <div class="section3-info">
+                        <img class="info-images" src="images/noticias.png" alt="Ícone de Notícias">
+                        <hr class="info-line">
+                        <p class="info-desc">Disponibilizaremos uma seção onde serão publicadas todas as notícias relacionadas ao mundo da ciência, organizadas de acordo com sua relevância, interesse e atualidade. Além disso, essa seção incluirá diversas descobertas no campo científico.</p>
+                    </div>
+                    <div class="section3-info">
+                        <img class="info-images" src="images/artigos.png" alt="Ícone de Artigos">
+                        <hr class="info-line">
+                        <p class="info-desc">Além das notícias, disponibilizaremos uma seção dedicada à arquivação de diversos artigos científicos, organizada de forma a facilitar uma busca dinâmica entre eles, classificando-os por relevância, atualidade e interesse</p>
+                    </div>
+                    <div class="section3-info">
+                        <img class="info-images" src="images/inovacoes.png" alt="Ícone de Inovações">
+                        <hr class="info-line">
+                        <p class="info-desc">Por fim, disponibilizaremos uma seção dedicada às inovações no mundo da ciência, abordando desde curiosidades até conteúdos mais informativos. Assim como as demais seções, esta também contará com uma organização dinâmica para facilitar a busca.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="line">
 
     </main>
 
-    <footer class="mainfooter">
-        <div class="mainfooter-content">
-            <p class="mainfooter-text">Copyright &copy; 2024 | Iago Ribeiro - Todos os direitos reservados </p>
+    <footer class="footer-container">
+        <div class="footer-content">
+            <p class="footer-text">Copyright &copy; 2024 | Iago Ribeiro - Todos os direitos reservados </p>
         </div>
-
     </footer>
     
 </body>
-
 </html>
